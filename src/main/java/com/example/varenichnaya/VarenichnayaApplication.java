@@ -9,3 +9,5 @@ public class VarenichnayaApplication {
         SpringApplication.run(VarenichnayaApplication.class, args);
     }
 }
+
+// check test
