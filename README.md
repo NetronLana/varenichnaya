@@ -51,5 +51,5 @@ mvn spring-boot:run
 Base URL:
 
 ```text
-http://localhost:8080/api/dishes
+http://localhost:8082/api/dishes
 ```
