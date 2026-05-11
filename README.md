@@ -24,6 +24,10 @@ Small Spring Boot CRUD project for learning CI/CD with Jenkins and SonarQube.
 4. Finish
 5. Make sure Eclipse uses JDK 21
 
+## start sonarQube
+- C:\dev\sonarqube\bin\windows-x86-64
+
+
 ## First check
 
 Run from project folder:
@@ -51,5 +55,5 @@ mvn spring-boot:run
 Base URL:
 
 ```text
-http://localhost:8080/api/dishes
+http://localhost:8082/api/dishes
 ```
