@@ -38,6 +38,8 @@ public class DishService {
         return mapper.toResponse(dish);
     }
 
+    
+    
     @Transactional
     public void delete(Long id) {
         Dish dish = findEntityById(id);
@@ -47,4 +49,6 @@ public class DishService {
     private Dish findEntityById(Long id) {
         return repository.findById(id).orElseThrow(() -> new DishNotFoundException(id));
     }
+    
+    
 }
